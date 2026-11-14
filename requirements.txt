@@ -1,0 +1,7 @@
+# Dependencias para la aplicación de lector de códigos de barras
+
+# Framework para aplicaciones móviles
+kivy==2.2.1
+
+# Procesamiento de imágenes
+pillow
