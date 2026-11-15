@@ -78,6 +78,10 @@ android.release_artifact = apk
 # (str) The format used to package the app for debug mode (apk or aab).
 android.debug_artifact = apk
 
+# Use Python 3.10 because Kivy 2.2.1 and python-for-android are not compatible
+# with Python 3.14; Python 3.14 removed the stdlib 'cgi' module used by Cython/Tempita.
+android.python_version = 3.10
+
 #
 # Python for android (p4a) specific
 #
