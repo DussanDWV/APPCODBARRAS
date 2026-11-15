@@ -23,6 +23,7 @@ android.release_artifact = apk
 android.debug_artifact = apk
 
 # Python-for-android options
+p4a.branch = develop
 p4a.extra_args = --enable-androidx
 
 ios.codesign.allowed = false
